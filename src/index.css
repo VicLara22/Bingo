@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#fondo {
+    background: rgb(36, 85, 192);
+    background: linear-gradient(180deg, rgba(36, 85, 192, 1) 0%, rgba(11, 20, 44, 1) 72%);
+    display: grid;
+}
+
+.bingo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+
+.cartonPlayer,
+.cartonCPU {
+    width: 300px;
+    height: 225px;
+    background-color: #9e1c23;
+    box-shadow: 1px 1px 1px 1px rgb(43, 43, 43);
+}
+.cartonPlayer h1,
+.cartonCPU h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ruleta {
+    width: 250px;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(207, 207, 207) 0%, rgb(133, 133, 133) 50%);
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container-nums {
+    width: 1200px;
+    height: 230px;
+    background-color: transparent;
+    border: 1px solid white;
+}

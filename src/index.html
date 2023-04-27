@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Bingo</title>
   <link rel="stylesheet" href="./index.css">
   <script type="module" src="./index.js"></script>
+  <script src="
+https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
+"></script>
 </head>
-<body>
 
+<body>
+  <main id="fondo">
+    <section class="bingo">
+      <artcile class="cartonPlayer">
+        <h1>PLAYER</h1>
+      </artcile>
+      <artcile class="ruleta">
+        <div id="bola"></div>
+        <button onclick="sacarBola()">SACAR NUMERO</button>
+      </artcile>
+      <artcile class="cartonCPU">
+        <h1>CPU</h1>
+      </artcile>
+    </section>
+    <section class="container">
+      <artcile class="container-nums">
+      </artcile>
+    </section>
+  </main>
 </body>
+
 </html>
